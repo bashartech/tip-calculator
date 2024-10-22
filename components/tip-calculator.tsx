@@ -23,7 +23,7 @@ export default function TipCalculator() {
         setBillAmount(parseFloat(e.target.value))
     }
     const handleTipPercentageChange = (e:ChangeEvent<HTMLInputElement>): void => {
-        setTipAmount(parseFloat(e.target.value))
+        setTipPercentage(parseFloat(e.target.value))
     }
 
     const calculateTip = ():void => {
